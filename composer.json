@@ -1,0 +1,21 @@
+{
+    "name": "micro/deprecation-supports",
+    "description": "Micro Framework: Deprecation supports for plugins",
+    "type": "library",
+    "version": "1.0",
+    "require": {
+        "micro/kernel": "^1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Micro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislau Komar",
+            "email": "stanislau_komar@epam.com"
+        }
+    ]
+}
